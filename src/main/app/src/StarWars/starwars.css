@@ -1,0 +1,19 @@
+.sw_cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+}
+
+.sw_cards > div {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+
+  .ws_card{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ws_card > small{
+    font-size: small;
+  }
